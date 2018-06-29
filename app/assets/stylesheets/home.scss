@@ -1,3 +1,113 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+    background: image-url('HomebaseBG.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    font-family: 'Lato', sans-serif;
+    color: white
+}
+
+header {
+    text-align: center;
+}
+
+.arcade {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
+    color: white;
+    
+}
+.arcade1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
+    color: white;
+   
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+.logo {
+    width: 250px;
+    margin-top: 50px;
+
+}
+#info-icon {
+    text-align: center;
+
+}
+
+.no-gutter {
+    margin-left: -20px;
+    margin-right: -20px;
+    
+}
+
+#hero {
+    background-color: white;
+    color: #253426;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+
+.price {
+    margin-top: 40px;
+}
+
+
+.icon {
+    width: 100px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.icon-text {
+    
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.input-group {
+    width: 300px;
+    margin-left: 50px;
+}
+
+.top {
+    color: #E87EEA;
+    margin: 0;
+    -webkit-text-stroke: .4px #FFFFFF;
+    font-weight: bold;
+}
+
+.bottom {
+    color: #7999EA;
+   margin: 0;
+    -webkit-text-stroke: .2px #FFFFFF;
+    font-weight: bold;
+}
+
+.logo1 {
+    text-align: center;
+}
+
+.house-white {
+    width: 100px;
+}
+
+
+
+ 
+
