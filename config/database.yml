@@ -80,6 +80,6 @@ test:
 #
 production:
   <<: *default
-  database: homebase_production
-  username: homebase
+  database: livehomebase_production
+  username: <%= ENV ['LIVEHOMEBASE_DATABASE_USER'] %>
   password: <%= ENV['HOMEBASE_DATABASE_PASSWORD'] %>
