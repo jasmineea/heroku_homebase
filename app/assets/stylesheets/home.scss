@@ -135,10 +135,11 @@ footer {
     color: blue;
 }
 
-#mc_embed_signup {
-  
+#mc_embed_signup form {
+  display: block;
+  position: relative;
   text-align: center;
-
+  padding: 10px 0 10px 3%;
 }
 
 // MEDIA QUERIES
