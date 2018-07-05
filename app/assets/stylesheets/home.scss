@@ -46,15 +46,21 @@ h3 {
 .logo-text {
     font-size: 15px;
 }
-#info-icon {
+.info-icon {
     text-align: center;
     margin-left: 20px;
 }
 
+.info-icon1 {
+    text-align: center;
+    color: black;
+}
+
 
 #hero {
-    opacity: 0.5;
-	filter: alpha(opacity=50);
+    background: #ffffff;
+    filter: alpha(opacity=70);
+    opacity: 0.7;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -62,8 +68,9 @@ h3 {
 }
 
 #hero1 {
-    opacity: 0.5;
-	filter: alpha(opacity=50);
+    background: #ffffff;
+    opacity: 0.7;
+	filter: alpha(opacity=70);
     text-align: center;
     padding-bottom: 10px;
     padding-top: 20px;
@@ -71,7 +78,7 @@ h3 {
 }
 
 .price {
-    margin-top: 40px;
+    color: black;
 }
 
 
@@ -152,7 +159,7 @@ p {
 }
 
 input {
-    border: 1px solid rgb(220, 219, 235);
+    border: 1px solid black;
     border-radius: 4px;
     font-size: 13px;
     padding: 10px;
@@ -182,7 +189,7 @@ input:focus {
 }
 
 input::placeholder {
-    color: #999;
+    color: black;
 }
 
 #subscribe-result p {
@@ -233,13 +240,13 @@ input::placeholder {
     }
     
     #info-icon {
-        margin-left: 170px;
+        font-size: 30px;
         
     }
     
     .info-icon1 {
         font-size: 30px;
-        margin-right: 150px;
+    
     }
     
     .icon {
@@ -282,13 +289,13 @@ input::placeholder {
     }
     
     #info-icon {
-        margin-left: 170px;
+      font-size: 30px;
         
     }
     
     .info-icon1 {
         font-size: 30px;
-        margin-right: 150px;
+     
     }
     
     .icon {
@@ -335,7 +342,7 @@ input::placeholder {
     
     .info-icon1 {
         font-size: 30px;
-        margin-right: 150px;
+       
     }
     
     .icon {
