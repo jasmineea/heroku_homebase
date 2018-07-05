@@ -55,7 +55,9 @@ h3 {
 #hero {
     background-color: white;
     color: #253426;
-    opacity: 0.7;
+    zoom: 1;
+	filter: alpha(opacity=50);
+	opacity: 0.7;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -65,7 +67,9 @@ h3 {
 #hero1 {
     background-color: white;
     color: #253426;
-    opacity: 0.7;
+    zoom: 1;
+	filter: alpha(opacity=50);
+	opacity: 0.7;
     text-align: center;
     padding-bottom: 10px;
     padding-top: 20px;
@@ -106,14 +110,14 @@ footer {
     color: #ef4cc9;
     margin: 0;
     //-webkit-text-stroke: .4px #FFFFFF;
-    font-weight: 300;
+    font-weight: 900;
 }
 
 .bottom {
-    color: #7999EA;
+    color: blue;
    margin: 0;
     //-webkit-text-stroke: .2px #FFFFFF;
-    font-weight: 300;
+    font-weight: 900;
 }
 
 .logo1 {
