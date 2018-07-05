@@ -46,9 +46,10 @@ h3 {
 .logo-text {
     font-size: 15px;
 }
-.info-icon {
-    text-align: center;
-    margin-left: 20px;
+
+#info-icon {
+   text-align: center;
+    margin-right: 60px;
 }
 
 .info-icon1 {
@@ -56,6 +57,9 @@ h3 {
     color: black;
 }
 
+.no-gutters {
+    margin-left: -10px;
+}
 
 #hero {
     background: #ffffff;
@@ -92,6 +96,9 @@ h3 {
     width: 100px;
     margin-bottom: 10px;
     margin-top: 30px;
+    margin-left: 20px;
+   
+   
 }
 
 .icon-text {
@@ -115,14 +122,13 @@ footer {
 .top {
     color: #ef4cc9;
     margin: 0;
-    //-webkit-text-stroke: .4px #FFFFFF;
-    font-weight: 900;
+    webkit-text-stroke: .4px #ef4cc9;
+    font-weight: 900px;
 }
 
 .bottom {
     color: blue;
    margin: 0;
-    //-webkit-text-stroke: .2px #FFFFFF;
     font-weight: 900;
 }
 
@@ -131,7 +137,7 @@ footer {
     margin-right: 20px;
     margin-top: 45px;
     background: black;
-    width: 1500px;
+    width: 2000px;
     height: 300px;
   
   
@@ -139,8 +145,7 @@ footer {
 
 .house-white {
     width: 100px;
-    margin-right: 420px;
-    margin-top: 100px;
+    margin-top: 120px;
    
 }
 
@@ -164,6 +169,8 @@ footer {
 .email-text {
     margin-top: 20px;
 }
+
+
 
 
 // Mailchimp CSS
@@ -226,12 +233,16 @@ input::placeholder {
         font-size: 13px;
     }
     
-    .icon-text2 {
-        margin-left: 20px;
+    .logo {
+        width: 300px;
     }
     
-    .icon-text1 {
-        margin-left: 10px;
+
+}
+
+@media (max-width: 375px) {
+    .icon {
+        width: 70px;
     }
 }
 
@@ -258,7 +269,7 @@ input::placeholder {
     
     #info-icon {
         font-size: 30px;
-        
+       
     }
     
     .info-icon1 {
@@ -268,6 +279,7 @@ input::placeholder {
     
     .icon {
         width: 200px;
+        
     }
     
     .hero-text {
@@ -277,60 +289,20 @@ input::placeholder {
     .lead {
         font-size: 30px;
     }
+    
+  //  .no-gutters {
+//   margin-left: -200px; 
+      
+  // }
     
 
 } 
 
 
 
-@media (min-width: 1366px) {
-      body {
-        font-size: 30px;
-    
-    }
-    
-    .logo {
-        width: 700px;
-    }
-    
-    .logo-text {
-        font-size: 30px;
-    }
-    
-    .arcade {
-        font-size: 20px;
-    }
-    
-    .arcade1 {
-        font-size: 20px;
-    }
-    
-    #info-icon {
-      font-size: 30px;
-        
-    }
-    
-    .info-icon1 {
-        font-size: 30px;
-     
-    }
-    
-    .icon {
-        width: 200px;
-    }
-    
-    .hero-text {
-        font-size: 30px;
-    }
-    
-    .lead {
-        font-size: 30px;
-    }
-    
 
-}  
 
-@media (min-width: 1024px) {
+@media (min-width: 1024px) and (min-width: 768px) {
       body {
         font-size: 30px;
     
@@ -352,10 +324,11 @@ input::placeholder {
         font-size: 20px;
     }
     
-    #info-icon {
-        margin-left: 170px;
-        
-    }
+   #info-icon {
+    font-size: 30px;
+  //     margin-left: 80px;
+     
+   }
     
     .info-icon1 {
         font-size: 30px;
@@ -364,6 +337,7 @@ input::placeholder {
     
     .icon {
         width: 200px;
+        
     }
     
     .hero-text {
@@ -374,8 +348,14 @@ input::placeholder {
         font-size: 30px;
     }
     
+    .no-gutters {
+    
+   }
+    
+
+    
 
 }  
-    
+
 
     
