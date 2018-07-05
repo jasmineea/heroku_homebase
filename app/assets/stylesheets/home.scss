@@ -220,9 +220,12 @@ input::placeholder {
     }
     
     .logo {
-        width: 600px;
+        width: 800px;
     }
     
+    .logo-text {
+        font-size: 30px;
+    }
     .arcade {
         font-size: 20px;
     }
@@ -265,7 +268,11 @@ input::placeholder {
     }
     
     .logo {
-        width: 500px;
+        width: 700px;
+    }
+    
+    .logo-text {
+        font-size: 30px;
     }
     
     .arcade {
@@ -307,8 +314,12 @@ input::placeholder {
     
     }
     
-    .logo {
-        width: 400px;
+     .logo {
+        width: 500px;
+    }
+    
+    .logo-text {
+        font-size: 20px;
     }
     
     .arcade {
