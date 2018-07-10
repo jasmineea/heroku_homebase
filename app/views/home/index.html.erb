@@ -1,62 +1,82 @@
-<header>
-    <div class="container arcade">
-     <div class="row">
-         <div class="col">
-             1UP
-         </div>
-         <div class="col">
-             HIGH SCORE
-         </div>
-     </div>
-      
-  </div>
-  <div class="container arcade1">
-     <div class="row">
-         <div class="col">
-             $70
-         </div>
-         <div class="col">
-             92000000
-         </div>
-     </div>
-    </div>
-    <div>
-        <%= image_tag 'HomebaselogoNOdiscrip.png', :class => "logo" %>
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Homebase</title>
+		
+		
+		
+		
+	</head>
+	<body>
+
+		<!-- Header -->
+ 
+    
+<div id="icons">
+      <div>
+       <%= image_tag 'HomebaselogoNOdiscrip.png', alt:'', :class=> "logo" %>
         <p class="text-center logo-text">Community Live, Work, Workout and Wellness</p>
     </div>
-    </header>
-    
-    <!-- HERO SECTION -->
-    
-    <section id="info-icon">
-      <div class="container">
-       <div class="row no-gutters justify-content-center">
-       <div class="col-2">
-       <%= image_tag 'liveicon.png', :class => "home icon" %>
+      <div class="icon-shift">
+      <div class="row no-gutters justify-content-center">
+      <div class="col-2">
+       <%= image_tag 'liveicon.png', alt:'', :class=> "icon"%>
        </div>
        <div class="col-2">
-       <%= image_tag 'workicon.png', :class => "work icon" %>
+       <%= image_tag 'workicon.png', alt:'', :class=> "icon" %>
        </div>
-       <div class="col-2">
-        <%= image_tag 'workouticon.png', :class => "workout icon" %>
+        <div class="col-2">     
+        <%= image_tag 'workouticon.png', alt:'', :class=> "icon" %>
         </div>
         <div class="col-2">
-        <%= image_tag 'wellnessicon.png', :class => "wellness icon" %>
+        <%= image_tag 'wellnessicon.png', alt:'', :class=> "icon" %>
         </div>
         <div class="col-2">
-        <%= image_tag 'homebasediamond.png', :class => "diamond icon" %>
+        <%= image_tag 'homebasediamond.png', alt:'', :class=> "icon" %>
         </div>
         </div>
         </div>
-    </section>
-    
-    <section class="text-center">
-        <h5>A Futuristic approach to Millennial Living</h5>
+        
+        <h2 class="top">A Futuristic approach to Millennial Living</h2>
         <p>Community based, short term stay housing. <br> Members can Live, Work, Workout and maintain Wellness through yoga, meditation &amp; healthy eating.</p>
-    </section>
-    
-    <footer>
-        <p class="lead">The good life is built with good relationships.</p>
-    </footer>
-     
-     
+        <img src="images/homebaselotuswhite.png" alt="" class="white-home">
+        </div>
+        
+        <section id="hero">
+            <h2>Unique Pricing</h2>
+            <p>Daily, Nightly, 3 Night, Weekly, Monthly, 3 Month, 6 Month</p>
+            <p class="lead">Starting at <span class="price">$70/night</span></p>
+            <h3 class="bottom">HOMEBASE SOHO + HOMEBASE DOWNTOWN</h3>
+            <p>Coming Soon!</p>
+            
+            <div>
+            <form action="https://livehomebase.us12.list-manage.com/subscribe/post"
+                method="post">
+                <input type="hidden" name="u" value="aa5c6da9921863ea561b16408">
+                <input type="hidden" name="id" value="f00a4aaa54">
+                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email Address" required>
+                <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                    <input type="text" name="b_e44c1f194bec93e238615469e_f6f826e769" tabindex="-1" value="">
+                </div>
+                <input type="submit" name="submit" value="Submit" name="subscribe" id="mc-embedded-subscribe" class="mc-button">
+                <div id="subscribe-result">
+                <input type="hidden" name="ht" value="fc7d311d67828856fa4c338f88205af6fdf6ee5e:MTUzMDczOTUzMy44ODc=">
+    <input type="hidden" name="mc_signupsource" value="hosted">
+                </div>
+            </form>
+        </div>
+
+        </section>			
+
+
+		<!-- Footer -->
+			<footer>
+				<h4 class="top">Drop E-mail For Updates</h4>
+			</footer>
+
+		<!-- Scripts -->
+			
+			
+	</body>
+</html>
