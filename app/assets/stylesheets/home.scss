@@ -271,29 +271,7 @@ input, select, textarea {
 			
 		}
 
-        @media screen and (max-width: 1366px) {
-             .icon-shift {
-              margin-left: 450px;
-            }
-            
-            .no-gutters {
-                margin-right: 400px;
-        
-            }
-        }
-
-		@media screen and (min-width: 1920px) {
-             .icon-shift {
-              margin-left: 750px;
-            }
-            
-            .no-gutters {
-                margin-right: 700px;
-        
-            }
-			
-
-		}
+      
 
 		@media screen and (max-width: 736px) {
 
@@ -472,23 +450,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 1280px) {
-
-			body, input, select, textarea {
-				font-size: 11pt;
-			}
-            
-            .icon-shift {
-              margin-left: 370px;
-            }
-            
-            .no-gutters {
-                margin-right: 330px;
-        
-            }
-
-		}
-
+		
 		@media screen and (max-width: 980px) {
 
 			body, input, select, textarea {
@@ -512,6 +474,38 @@ input, select, textarea {
 			}
 
 		}
+
+    @media screen and (min-width: 1280px) {
+
+			body, input, select, textarea {
+				font-size: 11pt;
+			}
+            
+            .icon-shift {
+              margin-left: 370px;
+            }
+            
+            .no-gutters {
+                margin-right: 330px;
+        
+            }
+
+		}
+
+    @media screen and (min-width: 1920px) {
+             .icon-shift {
+              margin-left: 750px;
+            }
+            
+            .no-gutters {
+                margin-right: 700px;
+        
+            }
+			
+
+		}
+
+
 
 	a {
 		-moz-transition: border-bottom-color 0.2s ease, color 0.2s ease;
