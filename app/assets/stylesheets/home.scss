@@ -29,6 +29,7 @@
 
 #icons {
     text-align: center;
+    margin-top: 20px;
 }
 
 .icon-shift {
@@ -47,14 +48,31 @@
 
 #hero {
     text-align: center;
+    
+}
+
+.future {
+    margin-top: 30px;
+}
+
+.clearview {
+    background: white;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 .top {
-    color: #ed979d;
+    color: deeppink;
+    font-weight: 900;
 }
 
 .bottom {
-    color: #97b0ef;
+    color: blue;
+    font-weight: 900;
 }
 
 .price {
