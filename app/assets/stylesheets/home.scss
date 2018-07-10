@@ -1,6 +1,25 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
 
+html {
+    background: transparent;
+}
+
+.arcade {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    
+}
+.arcade1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
+    color: white;
+    text-align: center;
+   
+}
+
 
 .logo {
     width: 350px;;
@@ -27,7 +46,7 @@
     margin-left: -10px;
 }
 
-.white-home {
+.white-house {
     width: 100px;
   
 }
@@ -41,10 +60,17 @@
     margin-top: 30px;
 }
 
-
+.clearview {
+    background: white;
+    opacity: 0.7;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
 
 .top {
-    color: pink;
+    color: deeppink;
     font-weight: 900;
 }
 
@@ -245,6 +271,17 @@ input, select, textarea {
 			
 		}
 
+        @media screen and (max-width: 1366px) {
+             .icon-shift {
+              margin-left: 450px;
+            }
+            
+            .no-gutters {
+                margin-right: 400px;
+        
+            }
+        }
+
 		@media screen and (max-width: 1680px) {
 
 			body {
@@ -435,6 +472,15 @@ input, select, textarea {
 			body, input, select, textarea {
 				font-size: 11pt;
 			}
+            
+            .icon-shift {
+              margin-left: 370px;
+            }
+            
+            .no-gutters {
+                margin-right: 330px;
+        
+            }
 
 		}
 
