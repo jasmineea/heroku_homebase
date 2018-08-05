@@ -15,6 +15,5 @@
 //= require jquery3
 //= require popper
 //= require bootstrap-sprockets
-//= require mail
 //= require_tree .
 
