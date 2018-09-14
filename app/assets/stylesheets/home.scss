@@ -3,7 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 body {
-    background: image-url('landingpageBG.jpg');
+    background: image-url('HBchinatown.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -14,23 +14,70 @@ body {
     color: white;
 }
 
+
+
 header {
     text-align: center;
 }
 
-.arcade {
-    font-family: 'Press Start 2P', cursive;
-    font-size: 10px;
-    color: white;
-    
+.icon-header {
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-weight: 900;
 }
-.arcade1 {
-    font-family: 'Press Start 2P', cursive;
-    font-size: 10px;
-    color: white;
+
+.no-gutter {
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
    
 }
 
+
+h5 {
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+h5.live {
+    margin-top: 20px;
+    margin-right: -160px;
+}
+
+h5.work {
+    margin-top: 20px;
+    margin-right: -120px;
+}
+
+h5.workout {
+    margin-top: 20px;
+    margin-right: -80px;
+}
+
+h5.wellness {
+    margin-top: 20px;
+    margin-right: -80px;
+}
+
+h5.homebase {
+    margin-top: 20px;
+    margin-right: -70px;
+}
+p {
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    font-weight: 100;
+}
+
+p.text-col {
+    margin-left: -40px;
+}
 
 
 .logo {
@@ -39,18 +86,19 @@ header {
 
 }
 
-.logo-text {
-    font-size: 15px;
+.chinatown {
+    width: 400px;
 }
+
 
 #info-icon {
    text-align: center;
-    margin-right: 60px;
 }
 
 .info-icon1 {
     text-align: center;
     color: white;
+    font-weight: 100;
 }
 
 .no-gutters {
@@ -74,24 +122,18 @@ header {
 
 .price {
     color: white;
+    font-weight: 900;
 }
 
-.community {
-    color: #ef4cc9;
-}
+
 
 
 .icon {
-    width: 100px;
-    margin-bottom: 10px;
-    margin-top: 30px;
-    margin-left: 20px;
-   
-   
+    width: 60px;   
 }
 
-.icon-text {
-  margin-right: 50px;
+span {
+    margin-top: 15px;
 }
 
 .icon-text1 {
@@ -108,30 +150,7 @@ footer {
 }
 
 
-.top {
-    color: #ef4cc9;
-    margin: 0;
-    webkit-text-stroke: .4px #ef4cc9;
-    font-weight: 900px;
-}
 
-.bottom {
-    color: blue;
-    margin: 0;
-    font-weight: 900;
-    text-transform: capitalize;
-}
-
-.logo1 {
-    text-align: center;
-    margin-right: 20px;
-    margin-top: 45px;
-    background: black;
-    width: 2000px;
-    height: 300px;
-  
-  
-}
 
 .house-white {
     width: 100px;
@@ -183,10 +202,6 @@ footer {
 
 		}
 			#mailchimp input[type="submit"]:hover { color: white;}
-.mailchimp-text {
-	color: #ef4cc9;
-    
-}
 
 // MEDIA QUERIES
 
@@ -318,10 +333,30 @@ footer {
     
    }
     
+    h5.live {
+    font-size: 30px;
+}
 
+h5.work {
+    font-size: 30px;
+}
+
+h5.workout {
+    font-size: 30px;
+}
+
+h5.wellness {
+    font-size: 30px;
+}
+
+h5.homebase {
+    font-size: 30px;
+}
     
 
 }  
+
+
 
 
     
