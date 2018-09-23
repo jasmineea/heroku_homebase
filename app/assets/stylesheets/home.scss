@@ -18,6 +18,14 @@ body {
 
 header {
     text-align: center;
+    line-height: 0;
+  
+}
+
+.title {
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-top: -100px;
 }
 
 .icon-header {
@@ -45,27 +53,34 @@ h5 {
 
 h5.live {
     margin-top: 20px;
-    margin-right: -160px;
+    margin-left: 60px;
+   
+    
 }
 
 h5.work {
     margin-top: 20px;
-    margin-right: -120px;
+    margin-left: 40px;
+   
+    
 }
 
 h5.workout {
     margin-top: 20px;
-    margin-right: -80px;
+    margin-left: -10px;
+   
 }
 
 h5.wellness {
     margin-top: 20px;
-    margin-right: -80px;
+    margin-left: -10px;
+    
 }
 
 h5.homebase {
     margin-top: 20px;
-    margin-right: -70px;
+    margin-left: -10px;
+    
 }
 p {
     margin-right: 0;
@@ -76,13 +91,15 @@ p {
 }
 
 p.text-col {
-    margin-left: -40px;
+    margin-left: -80px;
 }
 
 
 .logo {
     width: 350px;
-    margin-top: 50px;
+    margin-top: -25px;
+    height: auto;
+    
 
 }
 
@@ -113,25 +130,36 @@ p.text-col {
     color: white;
 }
 
-#hero1 {
-    text-align: center;
-    padding-bottom: 10px;
-    padding-top: 20px;
-    margin-top: 50px; 
-}
 
 .price {
     color: white;
     font-weight: 900;
 }
 
-
-
-
 .icon {
-    width: 60px;   
+    width: 60px;
+    
 }
 
+.icon-live {
+    margin-left: -80px;
+}
+
+.icon-work {
+    margin-left: -80px;
+}
+
+.icon-workout {
+    margin-left: -80px;
+}
+
+.icon-wellness {
+    margin-left: -80px;
+}
+
+.icon-homebase {
+    margin-left: -80px;
+}
 span {
     margin-top: 15px;
 }
@@ -148,8 +176,6 @@ footer {
     text-align: center;
     margin-top: 30px;
 }
-
-
 
 
 .house-white {
@@ -205,6 +231,31 @@ footer {
 
 // MEDIA QUERIES
 
+@media (max-width: 375px) {
+    .icon-live {
+    margin-left: -45px;
+}
+
+.icon-work {
+    margin-left: -50px;
+}
+
+.icon-workout {
+    margin-left: -50px;
+}
+
+.icon-wellness {
+    margin-left: -45px;
+}
+
+.icon-homebase {
+    margin-left: -50px;
+}
+p.text-col {
+    margin-left: -50px;
+}
+}
+
 @media (max-width: 320px) {
     .icon {
         width: 70px;
@@ -217,7 +268,18 @@ footer {
     .logo {
         width: 300px;
     }
-    
+
+    .icon-workout {
+    margin-left: -50px;
+    }
+
+    .icon-wellness {
+    margin-left: -80px;
+    }
+
+    .icon-homebase {
+    margin-left: -80px;
+    }
 
 }
 
@@ -231,6 +293,10 @@ footer {
       body {
         font-size: 30px;
     
+    }
+    
+    .title {
+        font-size: 300px;
     }
     
     .logo {
@@ -280,17 +346,19 @@ footer {
 } 
 
 
-
-
-
 @media (min-width: 1024px) and (min-width: 768px) {
       body {
         font-size: 30px;
     
     }
     
+    .title {
+        font-size: 100px;
+        margin-top: -150px;
+    }
+    
      .logo {
-        width: 500px;
+        width: 600px;
     }
     
     .logo-text {
@@ -307,12 +375,12 @@ footer {
     
    #info-icon {
     font-size: 30px;
-  //     margin-left: 80px;
      
    }
     
     .info-icon1 {
         font-size: 30px;
+        margin-bottom: 30px;
        
     }
     
