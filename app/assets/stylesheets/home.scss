@@ -3,7 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 body {
-    background: image-url('landingpageBG.jpg');
+    background: image-url('HBchinatown.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -14,43 +14,108 @@ body {
     color: white;
 }
 
+
+
 header {
     text-align: center;
+    line-height: 0;
+  
 }
 
-.arcade {
-    font-family: 'Press Start 2P', cursive;
-    font-size: 10px;
-    color: white;
-    
+.title {
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-top: -100px;
 }
-.arcade1 {
-    font-family: 'Press Start 2P', cursive;
-    font-size: 10px;
-    color: white;
+
+.icon-header {
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.no-gutter {
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
    
 }
 
 
+h5 {
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+h5.live {
+    margin-top: 20px;
+    margin-left: 60px;
+   
+    
+}
+
+h5.work {
+    margin-top: 20px;
+    margin-left: 40px;
+   
+    
+}
+
+h5.workout {
+    margin-top: 20px;
+    margin-left: -10px;
+   
+}
+
+h5.wellness {
+    margin-top: 20px;
+    margin-left: -10px;
+    
+}
+
+h5.homebase {
+    margin-top: 20px;
+    margin-left: -10px;
+    
+}
+p {
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    font-weight: 100;
+}
+
+p.text-col {
+    margin-left: -80px;
+}
+
 
 .logo {
     width: 350px;
-    margin-top: 50px;
+    margin-top: -25px;
+    height: auto;
+    
 
 }
 
-.logo-text {
-    font-size: 15px;
+.chinatown {
+    width: 400px;
 }
+
 
 #info-icon {
    text-align: center;
-    margin-right: 60px;
 }
 
 .info-icon1 {
     text-align: center;
     color: white;
+    font-weight: 100;
 }
 
 .no-gutters {
@@ -65,33 +130,38 @@ header {
     color: white;
 }
 
-#hero1 {
-    text-align: center;
-    padding-bottom: 10px;
-    padding-top: 20px;
-    margin-top: 50px; 
-}
 
 .price {
     color: white;
+    font-weight: 900;
 }
-
-.community {
-    color: #ef4cc9;
-}
-
 
 .icon {
-    width: 100px;
-    margin-bottom: 10px;
-    margin-top: 30px;
-    margin-left: 20px;
-   
-   
+    width: 60px;
+    
 }
 
-.icon-text {
-  margin-right: 50px;
+.icon-live {
+    margin-left: -80px;
+}
+
+.icon-work {
+    margin-left: -80px;
+}
+
+.icon-workout {
+    margin-left: -80px;
+}
+
+.icon-wellness {
+    margin-left: -80px;
+}
+
+.icon-homebase {
+    margin-left: -80px;
+}
+span {
+    margin-top: 15px;
 }
 
 .icon-text1 {
@@ -107,31 +177,6 @@ footer {
     margin-top: 30px;
 }
 
-
-.top {
-    color: #ef4cc9;
-    margin: 0;
-    webkit-text-stroke: .4px #ef4cc9;
-    font-weight: 900px;
-}
-
-.bottom {
-    color: blue;
-    margin: 0;
-    font-weight: 900;
-    text-transform: capitalize;
-}
-
-.logo1 {
-    text-align: center;
-    margin-right: 20px;
-    margin-top: 45px;
-    background: black;
-    width: 2000px;
-    height: 300px;
-  
-  
-}
 
 .house-white {
     width: 100px;
@@ -183,12 +228,33 @@ footer {
 
 		}
 			#mailchimp input[type="submit"]:hover { color: white;}
-.mailchimp-text {
-	color: #ef4cc9;
-    
-}
 
 // MEDIA QUERIES
+
+@media (max-width: 375px) {
+    .icon-live {
+    margin-left: -45px;
+}
+
+.icon-work {
+    margin-left: -50px;
+}
+
+.icon-workout {
+    margin-left: -50px;
+}
+
+.icon-wellness {
+    margin-left: -45px;
+}
+
+.icon-homebase {
+    margin-left: -50px;
+}
+p.text-col {
+    margin-left: -50px;
+}
+}
 
 @media (max-width: 320px) {
     .icon {
@@ -202,7 +268,18 @@ footer {
     .logo {
         width: 300px;
     }
-    
+
+    .icon-workout {
+    margin-left: -50px;
+    }
+
+    .icon-wellness {
+    margin-left: -80px;
+    }
+
+    .icon-homebase {
+    margin-left: -80px;
+    }
 
 }
 
@@ -216,6 +293,10 @@ footer {
       body {
         font-size: 30px;
     
+    }
+    
+    .title {
+        font-size: 300px;
     }
     
     .logo {
@@ -265,17 +346,19 @@ footer {
 } 
 
 
-
-
-
 @media (min-width: 1024px) and (min-width: 768px) {
       body {
         font-size: 30px;
     
     }
     
+    .title {
+        font-size: 100px;
+        margin-top: -150px;
+    }
+    
      .logo {
-        width: 500px;
+        width: 600px;
     }
     
     .logo-text {
@@ -292,12 +375,12 @@ footer {
     
    #info-icon {
     font-size: 30px;
-  //     margin-left: 80px;
      
    }
     
     .info-icon1 {
         font-size: 30px;
+        margin-bottom: 30px;
        
     }
     
@@ -318,10 +401,30 @@ footer {
     
    }
     
+    h5.live {
+    font-size: 30px;
+}
 
+h5.work {
+    font-size: 30px;
+}
+
+h5.workout {
+    font-size: 30px;
+}
+
+h5.wellness {
+    font-size: 30px;
+}
+
+h5.homebase {
+    font-size: 30px;
+}
     
 
 }  
+
+
 
 
     
